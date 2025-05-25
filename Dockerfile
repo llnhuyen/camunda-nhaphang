@@ -1,7 +1,7 @@
 FROM camunda/camunda-bpm-platform:tomcat-latest
 
 # Copy BPMN file vào đúng thư mục Camunda để tự động load process
-COPY QuyTrinhNhapHang.bpmn /camunda/webapps/camunda/WEB-INF/classes/
+COPY file_hinh_ve/QuyTrinhNhapHang.bpmn /camunda/webapps/camunda/WEB-INF/classes/
 
 # Copy các form
 COPY *.form /camunda/webapps/camunda/forms/
