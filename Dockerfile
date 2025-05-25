@@ -1,16 +1,10 @@
-FROM tomcat:9-jdk17-temurin
+FROM camunda/camunda-bpm-platform:tomcat-latest
 
-# Tải Camunda Tomcat distribution
-COPY camunda.tar.gz /tmp/camunda.tar.gz
+# Copy BPMN file vào đúng thư mục Camunda để tự động load process
+COPY file_hinh_ve/QuyTrinhNhapHang.bpmn /camunda/webapps/camunda/WEB-INF/classes/
 
-# Giải nén vào đúng thư mục Tomcat
-RUN mkdir /camunda && \
-    tar -xzf /tmp/camunda.tar.gz -C /camunda --strip-components=1 && \
-    mv /camunda/server/apache-tomcat-*/* /usr/local/tomcat/ && \
-    rm -rf /camunda /tmp/camunda.tar.gz
-
-# Copy process definition (.bpmn) và form nếu có
-COPY file_hinh_ve/QuyTrinhNhapHang.bpmn /usr/local/tomcat/webapps/camunda-internal/WEB-INF/classes/
+# Copy các form
+COPY *.form /camunda/webapps/camunda/forms/
 COPY *.form /usr/local/tomcat/webapps/camunda-internal/forms/
 
 # Expose port Tomcat
