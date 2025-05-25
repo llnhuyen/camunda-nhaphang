@@ -8,3 +8,4 @@ COPY *.form /camunda/webapps/camunda/forms/
 
 # Copy source bot và cài đặt nodejs (ví dụ chạy bot với nodejs)
 # Bước này cần bổ sung theo bot bạn dùng (nếu bot chạy riêng thì bạn deploy riêng)
+EXPOSE 8080
