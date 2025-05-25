@@ -10,7 +10,7 @@ RUN mkdir /camunda && \
     rm -rf /camunda /tmp/camunda.tar.gz
 
 # Copy process definition (.bpmn) và form nếu có
-COPY QuyTrinhNhapHang.bpmn /usr/local/tomcat/webapps/camunda-internal/WEB-INF/classes/
+COPY file_hinh_ve/QuyTrinhNhapHang.bpmn /usr/local/tomcat/webapps/camunda-internal/WEB-INF/classes/
 COPY *.form /usr/local/tomcat/webapps/camunda-internal/forms/
 
 # Expose port Tomcat
