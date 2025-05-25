@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "label": "Tên Sản Phẩm",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0mb063k",
+        "columns": null
+      },
+      "id": "Field_16zc0hm",
+      "key": "TenSP"
+    },
+    {
+      "label": "Mã Sản Phẩm",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0mb063k",
+        "columns": null
+      },
+      "id": "Field_1fjol08",
+      "key": "MaSP"
+    },
+    {
+      "label": "Số Lượng",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_11iar8y",
+        "columns": null
+      },
+      "id": "Field_05j79ou",
+      "key": "SoLuong"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0ip4hu1",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.35.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

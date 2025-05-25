@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "label": "Đơn Đặt Hàng",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_09v4vty",
+        "columns": null
+      },
+      "id": "Field_1l579ds",
+      "key": "DH"
+    },
+    {
+      "label": "Mã Đơn Hàng",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_09v4vty",
+        "columns": null
+      },
+      "id": "Field_0tvmnc9",
+      "key": "MaDH"
+    },
+    {
+      "label": "Tên Cửa Hàng Yêu Cầu",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_14bvpab",
+        "columns": null
+      },
+      "id": "Field_0vj4uft",
+      "key": "TenCH"
+    },
+    {
+      "label": "Mã Cửa Hàng",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_14bvpab",
+        "columns": null
+      },
+      "id": "Field_0wcz9sw",
+      "key": "MaCH"
+    },
+    {
+      "label": "Tên Sản Phẩm",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1yjn5ps",
+        "columns": null
+      },
+      "id": "Field_066rzn6",
+      "key": "TenSP"
+    },
+    {
+      "label": "Mã Sản Phẩm",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1yjn5ps",
+        "columns": null
+      },
+      "id": "Field_16fz82r",
+      "key": "MaSP"
+    },
+    {
+      "label": "Số Lượng Yêu Cầu",
+      "type": "number",
+      "layout": {
+        "row": "Row_1vf6bmo",
+        "columns": null
+      },
+      "id": "Field_1ggcdh1",
+      "key": "SoLuongYC"
+    },
+    {
+      "label": "Button",
+      "action": "submit",
+      "type": "button",
+      "layout": {
+        "row": "Row_05xxtax",
+        "columns": null
+      },
+      "id": "Field_02cicuu"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1c5r73m",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.35.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

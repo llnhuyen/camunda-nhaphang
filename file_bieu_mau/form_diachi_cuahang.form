@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "label": "Tên Cửa Hàng",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0vhgcf4",
+        "columns": null
+      },
+      "id": "Field_0zi6gsl",
+      "key": "TenCH"
+    },
+    {
+      "label": "Mã Cửa Hàng",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0z973ho",
+        "columns": null
+      },
+      "id": "Field_1jamdci",
+      "key": "MaCH"
+    },
+    {
+      "label": "Địa Chỉ Cửa Hàng",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1dlsk9j",
+        "columns": null
+      },
+      "id": "Field_12b9gl7",
+      "key": "DiaChiCH"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0kc9sva",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.35.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

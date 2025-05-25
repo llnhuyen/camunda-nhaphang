@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "label": "Tên Sản Phẩm",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0t5xq07",
+        "columns": null
+      },
+      "id": "Field_1u4otai",
+      "key": "TenSP"
+    },
+    {
+      "label": "Mã Sản Phẩm",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0t5xq07",
+        "columns": null
+      },
+      "id": "Field_0vjsh0l",
+      "key": "MaSP"
+    },
+    {
+      "label": "Số Lượng Đã giao",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0fs5y3s",
+        "columns": null
+      },
+      "id": "Field_18kf6qr",
+      "key": "SoLuong"
+    },
+    {
+      "label": "Tình trạng Sản Phẩm",
+      "values": [
+        {
+          "label": "Bình thường",
+          "value": "BT"
+        },
+        {
+          "label": "Lỗi",
+          "value": "L"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_038mrf1",
+        "columns": null
+      },
+      "id": "Field_0gk9tr7",
+      "key": "TinhTrangSP"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1yzbwmc",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.35.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

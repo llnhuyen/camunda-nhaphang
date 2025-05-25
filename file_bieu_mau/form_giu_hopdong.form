@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "label": "Hợp Đồng Đơn Hàng",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1cgtwzh",
+        "columns": null
+      },
+      "id": "Field_1hjhy6d",
+      "key": "HopDong"
+    },
+    {
+      "label": "Mã Hợp Đồng",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1cgtwzh",
+        "columns": null
+      },
+      "id": "Field_0r2usyb",
+      "key": "MaHD"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0rqx167",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.35.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}
